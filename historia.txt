@@ -1,1 +1,3 @@
-Este archivo es para ealizar la tarea de programacion
+Este archivo es para realizar la tarea de programacion.
+Cuando modificadomos algo debemos comitear para dejar un historial de lo realizado. 
+
