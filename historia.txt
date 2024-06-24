@@ -1,3 +1,2 @@
-Este archivo es para realizar la tarea de programacion.
-Cuando modificadomos algo debemos comitear para dejar un historial de lo realizado. 
-
+Bienvenidos mi nombre es Santiago
+Estudio programacion en la Universidad Tecnologica
