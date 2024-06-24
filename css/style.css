@@ -1,0 +1,19 @@
+body {
+    background-color: #f0f0f0;
+}
+
+p {
+    color: #333;
+}
+
+.mi-elemento {
+    text-align: center;
+}
+
+.mi-elemento {
+    border: 1px solid #ddd;
+}
+
+h1 {
+    font-size: 24px;
+}
