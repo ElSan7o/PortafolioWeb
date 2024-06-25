@@ -1,3 +1,16 @@
+body {
+    background: rgb(40, 81, 83);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+img {
+    border: 5px;
+    width: 100px;
+    margin: auto;
+}
+
 .navigation {
     display: flex;
     gap: 3rem;
@@ -9,4 +22,95 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+.navigation li {
+    front-size: 1rem;
+    width: 100px;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background: cadetblue;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 00.5rem);
+}
+
+.sobremi {
+    display: flex;
+    justify-content: center;
+}
+
+.container-sobremi {
+    display: flex;
+    width: 50%;
+    padding: 2rem;
+    margin-top: 5rem;
+    line-height: 2.5rem;
+    font-size: large;
+    color: azure;
+}
+
+@media (max-width: 767px) {
+    .Titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+
+    }
+
+    .container-sobremi {
+        width: 100%;
+        padding: 1;
+        margin-top: 1rem;
+        line-height: 2.5rem;
+        font-size: small;
+    }
+
+}
+
+@media (min-width: 768px; ) and (max-width:1023px) {
+    .Titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation {
+        gap: 2rem;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .Titulo {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    img {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .navigation {
+        gap: 3rem;
+        justify-content: flex-end;
+        margin: 0 3rem;
+
+    }
+
 }
